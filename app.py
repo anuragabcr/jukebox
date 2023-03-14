@@ -23,6 +23,7 @@ def init():
 
 
 def inference(model_inputs: dict) -> dict:
+    return {'wtf': 'Working up to here'}
     global model
     text = model_inputs.get('text', None)
     voice = model_inputs.get('voice', 'random')
